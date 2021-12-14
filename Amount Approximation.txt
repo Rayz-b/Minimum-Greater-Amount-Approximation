@@ -1,0 +1,12 @@
+D
+p1	
+p2	
+D % p1	surplus required with only p1
+p1 - D % p1 surplus when only with p1 
+D % p2	surplus required with only p2
+p2 - D % p2 surplus when only with p2
+
+if D % p1 < p2
+if D % p2 < p1
+
+chose max(p1,p2)
